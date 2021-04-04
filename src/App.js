@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import logo from "./logo.svg";
 import "./App.css";
 import Quotes from "./components/Quotes";
 
@@ -24,7 +23,7 @@ function App() {
           alt="logo"
           onClick={() => NewQuote()}
         /> */}
-        <img   onClick={() => NewQuote()}  data-toggle="tooltip"
+        <img  alt="meow" onClick={() => NewQuote()}  data-toggle="tooltip"
           title="Click me for new quote!" style={{height:"20%",width:"20%"}} src="https://cdn.dribbble.com/users/2844289/screenshots/9975802/media/4474fa216f3c7c7b572e0e851e406dfc.gif"></img>
         {quote}
       </header>
