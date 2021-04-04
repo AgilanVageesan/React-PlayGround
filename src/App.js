@@ -24,7 +24,7 @@ function App() {
           onClick={() => NewQuote()}
         /> */}
         <img  alt="meow" onClick={() => NewQuote()}  data-toggle="tooltip"
-          title="Click me for new quote!" style={{height:"20%",width:"20%"}} src="https://cdn.dribbble.com/users/2844289/screenshots/9975802/media/4474fa216f3c7c7b572e0e851e406dfc.gif"></img>
+          title="Click me for new quote!" style={{height:"40%",width:"40%"}} src="https://cdn.dribbble.com/users/2844289/screenshots/9975802/media/4474fa216f3c7c7b572e0e851e406dfc.gif"></img>
         {quote}
       </header>
       <footer style={{ color: "black", fontFamily: "monospace", fontSize: "large" ,float:"right"}}>- An AgilanVageesan Dev PlayGround  </footer>
